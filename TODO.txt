@@ -1,0 +1,4 @@
+1- Nombre (Hecho)
+2- Definir idea 
+3- Crear logo
+4- Implementar Bootstrap
