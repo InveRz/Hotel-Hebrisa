@@ -2,3 +2,6 @@
 2- Definir idea 
 3- Crear logo
 4- Implementar Bootstrap
+5- Crear estructura de directorios (Hecho)
+6- Crear base de estilo homogénea (Hecho)
+7- Amigable para móviles (Hecho)
