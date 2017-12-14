@@ -5,3 +5,4 @@
 5- Crear estructura de directorios (Hecho)
 6- Crear base de estilo homogénea (Hecho)
 7- Amigable para móviles (Hecho)
+8- Testeo de commits a la master (En progreso)
