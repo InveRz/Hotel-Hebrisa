@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Hebrisa - Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <style>
+            /* Remove the navbar's default margin-bottom and rounded borders */ 
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+            /* Add a gray background color and some padding to the footer */
+            footer {
+              background-color: #555;
+              color:white;
+              padding: 25px;
+            }
+            .carousel-inner img {
+                width: 100%; /* Set width to 100% */
+                margin: auto;
+                min-height:200px;
+            }
+            /* Hide the carousel text when the screen is less than 600 pixels wide */
+            @media (max-width: 600px) {
+              .carousel-caption {
+                display: none; 
+              }
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="info.html">Informaci&oacute;n</a></li>
+                        <li class="active"><a>Contacto</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesi&oacute;n</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-center">    
+            <h3>Contactanos</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <iframe frameborder="0" style="width:100%;height:276px;border:0" class="img-responsive" src="https://www.google.com/maps/embed/v1/place?q=Pure%20Salt%20Port%20Adriano&key=AIzaSyAec6wPa6F3JFjr8SaMpNtGiJg6OFRMr3A" allowfullscreen></iframe>                    <!--<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">-->
+                    <p>Donde estamos</p>
+                </div>
+                <div class="col-sm-4"> 
+                    <img src="img/puerta_delantera.png" class="img-responsive" style="width:100%" alt="Image">
+                    <p>C&oacute;mo llegar</p>    
+                </div>
+                <div class="col-sm-4">
+                    <div class="well">
+                        <p>Tel&eacute;fono: 971 876 543</p>
+                    </div>
+                    <div class="well">
+                        <p>Direcci&oacute;n:  C:\Manos 26</p>
+                    </div>
+                    <div class="well">
+                        <p>Correo electr&oacute;nico: <a href="mailto:contacto@hebrisa.com" target="_blank">contacto@hebrisa.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="container-fluid text-center">
+            <p>Hebrisa &COPY; 2017</p>
+        </footer>
+    </body>
+</html>
