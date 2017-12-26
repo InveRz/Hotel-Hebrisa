@@ -74,16 +74,16 @@
                         <br>
                         <input class="form-control" id="c2" type="password" minlength="8" maxlength="63" required autocomplete="off">
                         <script type="text/javascript">
-                                function confirmarContra(){
-                                        var c1 = document.getElementById('c1').value;
-                                        var c2 = document.getElementById('c2').value;
-                                        if(c1 !== c2){
-                                                alert('Las contraseñas no coinciden');
-                                                return false;
-                                        } else {
-                                                return true;
-                                        }
+                            function confirmarContra(){
+                                var c1 = document.getElementById('c1').value;
+                                var c2 = document.getElementById('c2').value;
+                                if(c1 !== c2){
+                                    alert('Las contraseñas no coinciden');
+                                    return false;
+                                } else {
+                                    return true;
                                 }
+                            }
                         </script>
                         <input style="margin-top:4px" class="btn btn-primary" type="submit" name="registrarse" value="Registrarse">
                         <?php 
