@@ -130,7 +130,7 @@
 
                                             $_SESSION['inicio_sesion'] = 'dog';
                                             $_SESSION['id'] = $row_u['id'];
-                                            $_SESSION['usuario'] == $row_u['usuario'];
+                                            $_SESSION['usuario'] = $row_u['usuario'];
 
                                             header('location:../admin/');
                                         } else {
